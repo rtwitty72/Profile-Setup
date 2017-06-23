@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+  .outer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FBDA31;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+
+  section {
+    max-width: 760px;
+    background-color: #ffffff;
+    padding: 2rem 0;
+
+    }
+
+    h1{
+      text-align: center;
+      font-weight: bold;
+    }
+
+
+  .formFields{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .formGroup input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+  }
+
+  .formGroup1 input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+  }
+
+
+  .Profile-Selections{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .upload{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+  }
+
+  button{
+    border: solid black;
+    border-width: medium;
+    height: 41px;
+    width: 331px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+  }
